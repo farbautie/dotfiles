@@ -45,4 +45,8 @@ set -g fish_pager_color_prefix $cyan
 set -g fish_pager_color_completion $foreground
 set -g fish_pager_color_description $comment
 
+set -x GOROOT /usr/local/go
+set -x PATH $PATH $GOROOT/bin
+set -x GOMODCACHE $HOME/golibs/pkg/mod
+
 starship init fish | source
