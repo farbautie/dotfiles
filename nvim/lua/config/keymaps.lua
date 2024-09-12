@@ -28,6 +28,7 @@ harpoon:setup()
 -- REQUIRED
 
 ----- OBSIDIAN -----
+----- OBSIDIAN -----
 vim.keymap.set(
   "n",
   "<leader>oc",
