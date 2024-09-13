@@ -8,7 +8,7 @@ return {
     workspaces = {
       {
         name = "FarbautieNotes",
-        path = "/mnt/c/Users/bomil/Documents/Obsidian/FarbautieNotes/",
+        path = "/mnt/c/Users/bomil/Documents/Obsidian/notes/",
       },
     },
     completion = {
