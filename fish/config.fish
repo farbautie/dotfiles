@@ -49,4 +49,6 @@ set -x GOROOT /usr/local/go
 set -x PATH $PATH $GOROOT/bin
 set -x GOMODCACHE $HOME/golibs/pkg/mod
 
+set PROJECT_PATHS /home/farbautie/workspace/ /mnt/c/Users/bomil/Documents/Obsidian/
+
 starship init fish | source
