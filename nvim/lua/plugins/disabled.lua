@@ -1,10 +1,10 @@
 return {
   {
     "akinsho/bufferline.nvim",
-    enabled = false,
+    enabled = true,
   },
   {
     "iamcco/markdown-preview.nvim",
-    enabled = false,
+    enabled = true,
   },
 }

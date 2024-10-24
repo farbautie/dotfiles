@@ -52,7 +52,7 @@ return {
         hsl_color = {
           pattern = "hsl%(%d+,? %d+,? %d+%)",
           group = function(_, match)
-            local utils = require("config.gentleman.utils")
+            local utils = require("config.utils.utils")
             local h, s, l = match:match("hsl%((%d+),? (%d+),? (%d+)%)")
             h, s, l = tonumber(h), tonumber(s), tonumber(l)
             local hex_color = utils.hslToHex(h, s, l)
@@ -82,7 +82,6 @@ return {
 
       opts.defaults = {
         file_ignore_patterns = {
-
           "node_modules",
           "package-lock.json",
           "yarn.lock",
